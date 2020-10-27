@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-ser if;
+    box-sizing: border-box;    
+}
+
+/* Titular y Menu Horizontal */
+header{
+    width: 100%;
+    position: sticky;
+    top:0;
+}
+
+ul{
+    background-color: rgb(116, 108, 108);
+    overflow: hidden;
+    list-style-type: none;
+    padding: 20px;
+    padding-left: 5%;
+    
+}
+
+li{
+    float: left;
+}
+li a{
+    display: inline;
+    text-decoration: none;
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    
+}
+
+li a:hover{
+    background-color: grey;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+
+/* Grid */
+
+.header{ grid-area: header;}
+.left{ grid-area: left;}
+.middle{ grid-area: middle;}
+.right{ grid-area: right;}
+.footer{ grid-area: footer;}
+
+.cabeceraContenido{
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'left middle right'
+    'left middle right';
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.cabeceraContenido > div{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+div > .header > h1{
+    font-size: 100px;
+    font-family: 'Syne Tactile', cursive;
+    text-align: center;
+    text-justify: auto;
+}
+
+div > .middle{
+    background-color: grey;
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 20px;
+    width: 100%;
+}
+/* Formulario */
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .formulario {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+/* Video */
+
+.video{
+    display: block;
+    margin: auto;
+    padding-left: 100px;
+    padding-top: 20px;
+}
