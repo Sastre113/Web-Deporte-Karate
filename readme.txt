@@ -1,7 +1,7 @@
 Repositorio:
 
-https://github.com/Sastre115/Web-Ocelote-Esport
+https://github.com/Sastre115/Web-Deporte-Karate
 
 Web:
 
- https://sastre115.github.io/Web-Ocelote-Esport/index.html
+ https://sastre115.github.io/Web-Deporte-Karate/index.html
